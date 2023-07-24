@@ -1,11 +1,8 @@
-name: Build and push `gpt4free` docker image
+name: Build and push the `gpt4free` docker image
 
 on:
   workflow_dispatch:
   push:
-    branches:
-      - main
-  pull_request:
     branches:
       - main
 
